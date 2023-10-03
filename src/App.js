@@ -4,6 +4,7 @@ import LandingSection from "./components/LandingSection";
 import ProjectsSection from "./components/ProjectsSection";
 import Footer from "./components/Footer";
 import AboutSection from "./components/AboutMe";
+import SkillsSection from "./components/SkillsSection";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <LandingSection />
           <ProjectsSection />
           <AboutSection/>
+         {/* <SkillsSection/> */}
           <Footer />      
         </main>   
     </ChakraProvider>
