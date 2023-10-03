@@ -138,115 +138,7 @@ const ProjectsSection = () => {
 
       </Box>
 
-//Breakfast
-      <Box
-        bg="black"
-        borderRadius="md"
-        boxShadow="md"
-        p={4}
-        display="flex"
-        flexDirection={{ base: "column", md: "column" }}
-        alignItems={{ base: "center", md: "flex-start" }}
-        width="100%"
-        height="auto"
-      >
-        <Box
-          display="flex"
-          flexDirection="row" // Display images horizontally
-          justifyContent="space-between" // Adjust spacing between images as needed
-          style={{ marginBottom: "20px" }}>
-          <div>
-            <img
-              src={require("../images/ib1.png")}
-              alt="Order"
-              style={{ maxWidth: "100%", height: "auto" }} />
-          </div>
-          <div>
-            <img
-              src={require("../images/ib2.png")}
-              alt="Order"
-              style={{ maxWidth: "100%", height: "auto" }} />
-          </div>
-          <div>
-            <img
-              src={require("../images/ib3.png")}
-              alt="Order"
-              style={{ maxWidth: "100%", height: "auto" }} />
-          </div>
-          <div>
-            <img
-              src={require("../images/ib4.png")}
-              alt="Order"
-              style={{ maxWidth: "100%", height: "auto" }} />
-          </div>
-        </Box>
-
-        <Box
-          display="flex"
-          flexDirection="column" // Display text content vertically
-          marginTop={{ base: "20px", md: 0 }} // Adjust margin as needed
-          color="#001C30"
-        >
-          <div>
-            <table>
-              <tr>
-                <td>
-                  <div style={{ marginLeft: "50px" }}>
-                    <Text fontSize="25px" mb={4} color="#069A8E" fontFamily="Comfortaa, sans-serif" fontWeight={"bold"} style={{
-                      backgroundImage: "linear-gradient(45deg, #CB33BD,#0DC185)",
-                      backgroundClip: "text",
-                      WebkitBackgroundClip: "text",
-                      color: "transparent",
-                      display: "inline-block"
-                    }}>
-                      The Breakfast Club food ordering iOS App
-                    </Text>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <div style={{ marginLeft: "50px" }}>
-                    <p style={{ fontSize: "18px", color: "#0DC185" }}>Project Description: SwiftUI, Firebase, CoreData</p>
-                  </div>
-
-                </td>
-              </tr>
-              <tr style={{ height: "20px" }}>
-                <td></td>
-              </tr>
-              <tr>
-                <td>
-                  <div style={{ marginLeft: "50px", color: "#0DC185" }}>
-                    <p>
-                      The Breakfast Club iOS food order app utilizes UserDefault, CoreData, Firebase, and API integration to deliver a user-friendly food ordering experience. 
-                      The synchronization between local and remote data and real-time updates will ensure that users have access to the latest menus. 
-                      For the sake of my portfolio, I opted to use a public API instead of the client's API. You may access test beta versions through Diawii.
-                    </p>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <div style={{ marginLeft: "50px", marginTop: "30px", color: "#001C30" }}>
-                    <a href="https://i.diawi.com/v6ctVo" target="_blank" rel="noopener noreferrer">
-                      <img
-                        src={require("../images/diawi.png")}
-                        alt="Get it on Diawi"
-                        style={{ width: "100px", height: "50px" }}
-                      />
-                    </a>
-                  </div>
-                </td>
-              </tr>
-            </table>
-          </div>
-        </Box>
-
-      </Box>
-
-
-    //Kei Android
+      //Kei Android
       <Box
         bg="black"
         borderRadius="md"
@@ -359,6 +251,117 @@ const ProjectsSection = () => {
 
       </Box>
 
+
+
+//Breakfast iOS
+      <Box
+        bg="black"
+        borderRadius="md"
+        boxShadow="md"
+        p={4}
+        display="flex"
+        flexDirection={{ base: "column", md: "column" }}
+        alignItems={{ base: "center", md: "flex-start" }}
+        width="100%"
+        height="auto"
+      >
+        <Box
+          display="flex"
+          flexDirection="row" // Display images horizontally
+          justifyContent="space-between" // Adjust spacing between images as needed
+          style={{ marginBottom: "20px" }}>
+          <div>
+            <img
+              src={require("../images/ib1.png")}
+              alt="Order"
+              style={{ maxWidth: "100%", height: "auto" }} />
+          </div>
+          <div>
+            <img
+              src={require("../images/ib2.png")}
+              alt="Order"
+              style={{ maxWidth: "100%", height: "auto" }} />
+          </div>
+          <div>
+            <img
+              src={require("../images/ib3.png")}
+              alt="Order"
+              style={{ maxWidth: "100%", height: "auto" }} />
+          </div>
+          <div>
+            <img
+              src={require("../images/ib4.png")}
+              alt="Order"
+              style={{ maxWidth: "100%", height: "auto" }} />
+          </div>
+        </Box>
+
+        <Box
+          display="flex"
+          flexDirection="column" // Display text content vertically
+          marginTop={{ base: "20px", md: 0 }} // Adjust margin as needed
+          color="#001C30"
+        >
+          <div>
+            <table>
+              <tr>
+                <td>
+                  <div style={{ marginLeft: "50px" }}>
+                    <Text fontSize="25px" mb={4} color="#069A8E" fontFamily="Comfortaa, sans-serif" fontWeight={"bold"} style={{
+                      backgroundImage: "linear-gradient(45deg, #CB33BD,#0DC185)",
+                      backgroundClip: "text",
+                      WebkitBackgroundClip: "text",
+                      color: "transparent",
+                      display: "inline-block"
+                    }}>
+                      The Breakfast Club food ordering iOS App
+                    </Text>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div style={{ marginLeft: "50px" }}>
+                    <p style={{ fontSize: "18px", color: "#0DC185" }}>Project Description: SwiftUI, Firebase, CoreData</p>
+                  </div>
+
+                </td>
+              </tr>
+              <tr style={{ height: "20px" }}>
+                <td></td>
+              </tr>
+              <tr>
+                <td>
+                  <div style={{ marginLeft: "50px", color: "#0DC185" }}>
+                    <p>
+                      The Breakfast Club iOS food order app utilizes UserDefault, CoreData, Firebase, and API integration to deliver a user-friendly food ordering experience. 
+                      The synchronization between local and remote data and real-time updates will ensure that users have access to the latest menus. 
+                      For the sake of my portfolio, I opted to use a public API instead of the client's API. You may access test beta versions through Diawi.
+                    </p>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div style={{ marginLeft: "50px", marginTop: "30px", color: "#001C30" }}>
+                    <a href="https://i.diawi.com/v6ctVo" target="_blank" rel="noopener noreferrer">
+                      <img
+                        src={require("../images/diawi.png")}
+                        alt="Get it on Diawi"
+                        style={{ width: "100px", height: "50px" }}
+                      />
+                    </a>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </Box>
+
+      </Box>
+
+
+    
 //Breakfast Android
       <Box
         bg="black"
