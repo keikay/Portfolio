@@ -231,7 +231,7 @@ const ProjectsSection = () => {
               <tr></tr>
 
 
-              <tr>
+              {/* <tr>
                 <td>
                   <div style={{ marginLeft: "50px", color: "#001C30" }}>
                     <a href="https://play.google.com/store/apps/details?id=com.kkw.kei" target="_blank" rel="noopener noreferrer">
@@ -244,7 +244,7 @@ const ProjectsSection = () => {
                     </a>
                   </div>
                 </td>
-              </tr>
+              </tr> */}
             </table>
           </div>
         </Box>
@@ -341,7 +341,7 @@ const ProjectsSection = () => {
                   </div>
                 </td>
               </tr>
-              <tr>
+              {/* <tr>
                 <td>
                   <div style={{ marginLeft: "50px", marginTop: "30px", color: "#001C30" }}>
                     <a href="https://i.diawi.com/v6ctVo" target="_blank" rel="noopener noreferrer">
@@ -353,7 +353,7 @@ const ProjectsSection = () => {
                     </a>
                   </div>
                 </td>
-              </tr>
+              </tr> */}
             </table>
           </div>
         </Box>
@@ -451,7 +451,7 @@ const ProjectsSection = () => {
                 </td>
               </tr>
               <tr></tr>
-              <tr>
+              {/* <tr>
                 <td>
                 <div style={{ marginLeft: "50px", color: "#001C30" }}>
                     <a href="https://rb.gy/9w7ly" target="_blank" rel="noopener noreferrer">
@@ -468,7 +468,7 @@ const ProjectsSection = () => {
 
 
               </tr>
-             
+              */}
             </table>
           </div>
         </Box>
